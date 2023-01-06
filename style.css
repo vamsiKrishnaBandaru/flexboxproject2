@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+/* left view section */
+
+.left-view {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  background: linear-gradient(to right, hsl(222, 60%, 76%), hsl(210, 73%, 51%));
+}
+label {
+  font-size: 1rem;
+  color: rgb(52, 52, 52);
+}
+.logo {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 2rem;
+}
+.boxes {
+  margin: 4rem;
+}
+.box {
+  display: flex;
+  padding: 5rem;
+}
+.text {
+  font-size: 1.2rem;
+}
+.text p {
+  font-size: 1rem;
+  color: hsl(207, 100%, 94%);
+  margin-top: 0.5rem;
+}
+
+/* right view section */
+.right-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 0 15rem;
+}
+
+.right-container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.title {
+  font-size: 1.6rem;
+}
+.border {
+  border-bottom: 0.3rem solid rgb(169, 169, 169);
+  padding-bottom: 0.6rem;
+}
+.blue {
+  color: blue;
+  opacity: 0.8;
+}
+.same-tag {
+  display: flex;
+  flex-direction: column;
+}
+.your-name,
+.your-role,
+.report1,
+.report2 {
+  display: flex;
+  flex-direction: column;
+}
+.middle-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.middle-row1,
+.middle-row2 {
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+}
+.middle-row1 input,
+.middle-row2 input {
+  padding: 1rem 4rem;
+}
+.down-row {
+  display: flex;
+}
+
+input {
+  background-color: rgb(235, 235, 235);
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  margin-top: 0.5rem;
+}
+
+input:focus {
+  border: 0.14rem solid rgb(135, 187, 236);
+  background-color: white;
+}
+.down-row {
+  display: flex;
+  justify-content: space-between;
+}
+.tacbox {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+label {
+  opacity: 0.9;
+  font-weight: 300;
+}
+.tacbox a {
+  color: rgb(91, 91, 233);
+  text-decoration-line: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.tacbox input {
+  margin: 0 1rem;
+}
+
+.down-row button {
+  padding: 0.8rem 2.5rem;
+  border: none;
+  background-color: blue;
+  opacity: 0.8;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: bold;
+}
