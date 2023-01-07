@@ -159,6 +159,11 @@ label {
     padding: 0;
     box-sizing: border-box;
     flex-direction: column;
+    width: auto;
+  }
+  body {
+    height: auto;
+    width: auto;
   }
   .main {
     flex-direction: column;
@@ -167,9 +172,18 @@ label {
     flex-direction: column;
     text-align: center;
   }
+  .left-view {
+    width: 100%;
+  }
   .right-view {
+    width: 100%;
     margin: 0;
     padding: 0;
+  }
+  .right-container {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
   }
   .middle-blocks,
   .middle-row1,
@@ -181,5 +195,30 @@ label {
   }
   .title {
     font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  .down-row {
+    gap: 1rem;
+  }
+  .down-row button {
+    width: 40%;
+  }
+  input {
+    width: 100%;
+  }
+  .middle-blocks {
+    width: 80%;
+  }
+  .same-tag {
+    width: 80%;
+  }
+  .tacbox {
+    width: auto;
+    margin-left: 1rem;
+  }
+  .down-row button {
+    align-self: center;
+    width: 60%;
+    text-align: center;
   }
 }
