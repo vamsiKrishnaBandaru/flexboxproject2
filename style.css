@@ -176,9 +176,13 @@ label {
     width: 100%;
   }
   .right-view {
-    width: 100%;
+    width: auto;
     margin: 0;
     padding: 0;
+  }
+  .logo {
+    width: 2rem;
+    height: 2rem;
   }
   .right-container {
     align-items: center;
@@ -204,7 +208,7 @@ label {
     width: 40%;
   }
   input {
-    width: 100%;
+    width: auto;
   }
   .middle-blocks {
     width: 80%;
