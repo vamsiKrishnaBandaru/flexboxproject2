@@ -50,6 +50,7 @@ label {
 }
 
 /* right view section */
+
 .right-view {
   display: flex;
   align-items: center;
@@ -61,7 +62,6 @@ label {
 
 .right-container {
   flex-basis: 50%;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -151,4 +151,35 @@ label {
   border-radius: 0.3rem;
   color: white;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .right-view {
+    margin: 0;
+    padding: 0;
+  }
+  .middle-blocks,
+  .middle-row1,
+  .middle-row2 {
+    flex-direction: column;
+  }
+  .tacbox {
+    display: inline;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
 }
